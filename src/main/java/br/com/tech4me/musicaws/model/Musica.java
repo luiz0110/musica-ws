@@ -3,7 +3,7 @@ package br.com.tech4me.musicaws.model;
 import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.mapping.Document;
 
-@Document
+@Document("musicas")
 
 public class Musica {
     @Id
